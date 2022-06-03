@@ -17,6 +17,7 @@ class CollReduce(metaclass=ABCMeta):  # abstract class
 
 
 def make_reducer(reducible, transformF):
+    # AnonClass = ReducibleWithReducingStrategy
     class AnonClass(CollReduce):
         def __init__(self):
             pass
